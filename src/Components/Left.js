@@ -4,7 +4,6 @@ function Left() {
   let data = Leftdata;
   return (
     <div id="leftcontainer">
-      <h3 id="rush">Rush News</h3>
       {data.map((datas, index) => {
         return (
           <a
