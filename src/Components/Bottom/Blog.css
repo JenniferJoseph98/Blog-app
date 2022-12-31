@@ -1,8 +1,6 @@
 #bottomcont{
     width: 98vw;
     display: flex;
-    margin-top: 50px;
-    align-items: center;
     justify-content: space-between;
 }
 #newscontainer{
@@ -35,12 +33,11 @@
     width: 30%;
     display: flex;
     flex-wrap: wrap;
-    width: 1000px;
     justify-content: space-between;
 }
 .btmcont{
     border: 3px solid rgb(247, 245, 245);
-    width: 40%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
