@@ -13,9 +13,12 @@
     border-radius: 58%;
     background-color:rgb(34, 109, 238) ;
 }
+.litag{
+    font-size: small;
+    font-weight: bold;
+}
 #headerleft{
     width: 700px;
-    font-size: 1.5rem;
     height: 100%;
 }
 .headerright{

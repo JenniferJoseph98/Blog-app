@@ -17,6 +17,7 @@ function Header() {
       <div id="headerleft">
         <ul>
           <li
+            className="litag"
             onClick={() => {
               navigate("/");
             }}
@@ -24,6 +25,7 @@ function Header() {
             Home
           </li>
           <li
+            className="litag"
             onClick={() => {
               navigate("/home");
             }}
@@ -31,6 +33,7 @@ function Header() {
             Services
           </li>
           <li
+            className="litag"
             onClick={() => {
               navigate("/about");
             }}
@@ -38,6 +41,7 @@ function Header() {
             About
           </li>
           <li
+            className="litag"
             onClick={() => {
               navigate("/contact");
             }}
@@ -46,6 +50,7 @@ function Header() {
           </li>
 
           <li
+            className="litag"
             onClick={() => {
               navigate("/more");
             }}
