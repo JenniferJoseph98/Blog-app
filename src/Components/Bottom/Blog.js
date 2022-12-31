@@ -1,13 +1,14 @@
 import React from "react";
-import BlogData from "./blogdata"
+import BlogData from "./blogdata";
 import "./Blog.css";
 function Blog() {
   const news = BlogData;
   return (
     <div id="newscontainer">
-      {news.map((newsdata,index) => {
+      {news.map((newsdata, index) => {
         return (
-          <a key={index}
+          <a
+            key={index}
             href={newsdata.url}
             rel="noreferrer"
             target="_blank"

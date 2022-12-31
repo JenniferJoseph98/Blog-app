@@ -1,4 +1,3 @@
-
 import React from "react";
 import Data from "./btnRightContent";
 import "./Blog.css";

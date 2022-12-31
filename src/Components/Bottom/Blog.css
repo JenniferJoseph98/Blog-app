@@ -4,10 +4,12 @@
     margin-top: 50px;
   justify-content: space-around;
 }
-
+#newscontainer{
+    width: 40%;
+}
 .newsdata{
     display: flex;
-    width: 800px;
+    width: 40%;
     height: 250px;
     border-radius: 10px;
     align-items: center;
@@ -29,6 +31,7 @@
     width: 200px;
 }
 #bottomright{
+    width: 60%;
     display: flex;
     flex-wrap: wrap;
     width: 1000px;
