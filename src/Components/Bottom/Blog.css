@@ -5,11 +5,11 @@
   justify-content: space-around;
 }
 #newscontainer{
-    width: 55%;
+    width: 50%;
 }
 .newsdata{
     display: flex;
-    width: 100%;
+    width: 90%;
     height: 250px;
     border-radius: 10px;
     align-items: center;
