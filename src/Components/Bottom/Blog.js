@@ -19,8 +19,8 @@ function Blog() {
             </div>
             <div className="newsinfo">
               <span className="date">{newsdata.publishedAt}</span>
-              <h5>{newsdata.title}</h5>
-              <h6>{newsdata.content}</h6>
+              <span>{newsdata.title}</span>
+              <span>{newsdata.content}</span>
             </div>
           </a>
         );
