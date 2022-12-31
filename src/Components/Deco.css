@@ -13,7 +13,7 @@
 }
 #rightdiv{
    
-    width: 700px;
+    width: 30%;
     display: flex;
    flex-direction: column;
 }
@@ -37,12 +37,11 @@
     width: 20%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-  
     height: 110px;
 }
 #center{
-    width: 650px;
-    height: 107%;
+    width: 30%;
+    height: 100%;
     align-items: center;
     display: flex;
     border-radius: 10px;
