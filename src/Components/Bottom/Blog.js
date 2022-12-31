@@ -18,7 +18,10 @@ function Blog() {
               <img className="img" src={newsdata.urlToImage} alt="news" />
             </div>
             <div className="newsinfo">
-              <span className="date">{newsdata.publishedAt}</span>
+              <span className="date">
+                <i className="publish">Publish Date: </i>
+                {newsdata.publishedAt}
+              </span>
               <span>{newsdata.title}</span>
               <span>{newsdata.content}</span>
             </div>

@@ -17,7 +17,7 @@ function BottomRight() {
           >
             <img className="btmimg" alt="bottom" src={datas.urlToImage} />
             <div className="bottominfocont">
-              <h2 className="bottominfo">{datas.title}</h2>
+              <span className="bottominfo">{datas.title}</span>
             </div>
           </a>
         );
