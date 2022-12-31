@@ -23,7 +23,7 @@ function Right() {
               }}
             ></div>
             <div className="rightinfo">
-              <h4 className="righth1">{news.title}</h4>
+              <h6 className="righth1">{news.title}</h6>
             </div>
           </a>
         );
