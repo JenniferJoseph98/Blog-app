@@ -6,7 +6,6 @@
 }
 
 #bottomright{
-   
     display: flex;
     width: 45%;
     justify-content: space-around;
@@ -31,7 +30,7 @@ body{
     
 }
 .bottominfo{
-    font-size: 1.3rem;
+    font-size: 0.8rem;
     display: flex;
     height: 35%;
     align-items: center;
@@ -68,7 +67,7 @@ body{
 .newsinfo{
     width: 55%;
     display: flex;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     height: 100%;
     margin-left: 15px;
     text-align: justify;
